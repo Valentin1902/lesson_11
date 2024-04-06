@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/animation/anim.css">
+</head>
+<body>
+    <form name="newFrom" id="1" autocompete="on">
+        <label for="">
+Name
+
+            <input type="text" placeholder="Хто ти?">
+
+        </label>
+        <label for="@mail">тут email</label>
+        <input id="email" type="email"placeholder="@mail">
+        <label for="password">Твій пароль</label>
+        <input id="password" type="password"placeholder="Password">
+        <button>Send</button>
+    </form>
+
+
+    <form class="comet" name="coment" id="1" autocompete="on">
+        <fieldset>
+            <legend>Ваші облікові дані</legend>
+            <label for="userName">
+                Ім'я
+                <input type="text" placeholder="userName">
+            
+                </label>
+                <label for="email">
+                    Email
+                    <input type="email" id="emeil"placeholder="email">
+                </label>
+                <label for="password">
+                    password
+                    <input type="password" id="password" placeholder="password">
+                </label>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Ваша улюблена мова програмування</legend>
+            <div class="form_field">
+                <label for="Phyton"><input type="checkbox">Phyton</label>
+                <label for="JavaScript"> <input type="checkbox">JavaScript</label>
+                <label for="HTML"> <input type="checkbox">C++</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ваша улюблені Бібліотеки</legend>
+            <div class="form_field">
+                <label for="React"><input type="radio" name="framework">React</label>
+                <label for="Next"> <input type="radio"name="framework">Next</label>
+                <label for="Angular"> <input type="radio"name="framework">Angular</label>
+            </div>
+        </fieldset>
+
+        <button>Send</button>
+    </form>
+
+</body>
+</html>
